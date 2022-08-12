@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+}
+.header .header__title{
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    color: white;
+    margin: 0px;
+}
+
+.header .header__button{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+}
+.header .newToDoTab{
+    position: absolute;
+    border: 3px solid blue;
+    width: 236px;
+    height: 250px;
+    top: 20px;
+    left: 43%;
+    background-color: white;
+}
+.header .newToDoTab__buttonHolder{
+    text-align: center;
+}
+.header .newToDoTab__buttonHolder button{
+    width: 70px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: rgb(49, 45, 116);
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header .newToDoTab__textareaHolder {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+   
+}
+.header .newToDoTab__textareaHolder textarea{
+    height: 180px;
+    width: 80%;
+    border: none;
+    resize: none;
+    font-size:14px;
+    margin-top: 10px;
+}
+
+
+
